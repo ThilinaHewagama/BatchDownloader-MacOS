@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4757DB22BB44DC100373090 /* BatchDownloaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4757DB12BB44DC100373090 /* BatchDownloaderApp.swift */; };
+		D4757DB42BB44DC100373090 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4757DB32BB44DC100373090 /* ContentView.swift */; };
+		D4757DB62BB44DC200373090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4757DB52BB44DC200373090 /* Assets.xcassets */; };
+		D4757DB92BB44DC200373090 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4757DB82BB44DC200373090 /* Preview Assets.xcassets */; };
+		D4757DC42BB44DC200373090 /* MyDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4757DC32BB44DC200373090 /* MyDownloaderTests.swift */; };
+		D4757DCE2BB44DC200373090 /* MyDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4757DCD2BB44DC200373090 /* MyDownloaderUITests.swift */; };
+		D4757DD02BB44DC200373090 /* MyDownloaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4757DCF2BB44DC200373090 /* MyDownloaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4757DC02BB44DC200373090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4757DA62BB44DC100373090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4757DAD2BB44DC100373090;
+			remoteInfo = MyDownloader;
+		};
+		D4757DCA2BB44DC200373090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4757DA62BB44DC100373090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4757DAD2BB44DC100373090;
+			remoteInfo = MyDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D46C8E832C018BA70090E7AF /* BatchDownloaderMacOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BatchDownloaderMacOS-Info.plist"; sourceTree = "<group>"; };
+		D4757DAE2BB44DC100373090 /* BatchDownloaderMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatchDownloaderMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4757DB12BB44DC100373090 /* BatchDownloaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchDownloaderApp.swift; sourceTree = "<group>"; };
+		D4757DB32BB44DC100373090 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4757DB52BB44DC200373090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4757DB82BB44DC200373090 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4757DBA2BB44DC200373090 /* BatchDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatchDownloader.entitlements; sourceTree = "<group>"; };
+		D4757DBF2BB44DC200373090 /* BatchDownloaderMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatchDownloaderMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4757DC32BB44DC200373090 /* MyDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloaderTests.swift; sourceTree = "<group>"; };
+		D4757DC92BB44DC200373090 /* BatchDownloaderMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatchDownloaderMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4757DCD2BB44DC200373090 /* MyDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloaderUITests.swift; sourceTree = "<group>"; };
+		D4757DCF2BB44DC200373090 /* MyDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4757DAB2BB44DC100373090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4757DBC2BB44DC200373090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4757DC62BB44DC200373090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4757DA52BB44DC100373090 = {
+			isa = PBXGroup;
+			children = (
+				D46C8E832C018BA70090E7AF /* BatchDownloaderMacOS-Info.plist */,
+				D4757DB02BB44DC100373090 /* BatchDownloader */,
+				D4757DC22BB44DC200373090 /* MyDownloaderTests */,
+				D4757DCC2BB44DC200373090 /* MyDownloaderUITests */,
+				D4757DAF2BB44DC100373090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4757DAF2BB44DC100373090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4757DAE2BB44DC100373090 /* BatchDownloaderMacOS.app */,
+				D4757DBF2BB44DC200373090 /* BatchDownloaderMacOSTests.xctest */,
+				D4757DC92BB44DC200373090 /* BatchDownloaderMacOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4757DB02BB44DC100373090 /* BatchDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				D4757DB12BB44DC100373090 /* BatchDownloaderApp.swift */,
+				D4757DB32BB44DC100373090 /* ContentView.swift */,
+				D4757DB52BB44DC200373090 /* Assets.xcassets */,
+				D4757DBA2BB44DC200373090 /* BatchDownloader.entitlements */,
+				D4757DB72BB44DC200373090 /* Preview Content */,
+			);
+			path = BatchDownloader;
+			sourceTree = "<group>";
+		};
+		D4757DB72BB44DC200373090 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4757DB82BB44DC200373090 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4757DC22BB44DC200373090 /* MyDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4757DC32BB44DC200373090 /* MyDownloaderTests.swift */,
+			);
+			path = MyDownloaderTests;
+			sourceTree = "<group>";
+		};
+		D4757DCC2BB44DC200373090 /* MyDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4757DCD2BB44DC200373090 /* MyDownloaderUITests.swift */,
+				D4757DCF2BB44DC200373090 /* MyDownloaderUITestsLaunchTests.swift */,
+			);
+			path = MyDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4757DAD2BB44DC100373090 /* BatchDownloaderMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4757DD32BB44DC200373090 /* Build configuration list for PBXNativeTarget "BatchDownloaderMacOS" */;
+			buildPhases = (
+				D4757DAA2BB44DC100373090 /* Sources */,
+				D4757DAB2BB44DC100373090 /* Frameworks */,
+				D4757DAC2BB44DC100373090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatchDownloaderMacOS;
+			productName = MyDownloader;
+			productReference = D4757DAE2BB44DC100373090 /* BatchDownloaderMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4757DBE2BB44DC200373090 /* BatchDownloaderMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4757DD62BB44DC200373090 /* Build configuration list for PBXNativeTarget "BatchDownloaderMacOSTests" */;
+			buildPhases = (
+				D4757DBB2BB44DC200373090 /* Sources */,
+				D4757DBC2BB44DC200373090 /* Frameworks */,
+				D4757DBD2BB44DC200373090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4757DC12BB44DC200373090 /* PBXTargetDependency */,
+			);
+			name = BatchDownloaderMacOSTests;
+			productName = MyDownloaderTests;
+			productReference = D4757DBF2BB44DC200373090 /* BatchDownloaderMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4757DC82BB44DC200373090 /* BatchDownloaderMacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4757DD92BB44DC200373090 /* Build configuration list for PBXNativeTarget "BatchDownloaderMacOSUITests" */;
+			buildPhases = (
+				D4757DC52BB44DC200373090 /* Sources */,
+				D4757DC62BB44DC200373090 /* Frameworks */,
+				D4757DC72BB44DC200373090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4757DCB2BB44DC200373090 /* PBXTargetDependency */,
+			);
+			name = BatchDownloaderMacOSUITests;
+			productName = MyDownloaderUITests;
+			productReference = D4757DC92BB44DC200373090 /* BatchDownloaderMacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4757DA62BB44DC100373090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D4757DAD2BB44DC100373090 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D4757DBE2BB44DC200373090 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D4757DAD2BB44DC100373090;
+					};
+					D4757DC82BB44DC200373090 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D4757DAD2BB44DC100373090;
+					};
+				};
+			};
+			buildConfigurationList = D4757DA92BB44DC100373090 /* Build configuration list for PBXProject "BatchDownloaderMacOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4757DA52BB44DC100373090;
+			productRefGroup = D4757DAF2BB44DC100373090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4757DAD2BB44DC100373090 /* BatchDownloaderMacOS */,
+				D4757DBE2BB44DC200373090 /* BatchDownloaderMacOSTests */,
+				D4757DC82BB44DC200373090 /* BatchDownloaderMacOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4757DAC2BB44DC100373090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4757DB92BB44DC200373090 /* Preview Assets.xcassets in Resources */,
+				D4757DB62BB44DC200373090 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4757DBD2BB44DC200373090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4757DC72BB44DC200373090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4757DAA2BB44DC100373090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4757DB42BB44DC100373090 /* ContentView.swift in Sources */,
+				D4757DB22BB44DC100373090 /* BatchDownloaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4757DBB2BB44DC200373090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4757DC42BB44DC200373090 /* MyDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4757DC52BB44DC200373090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4757DCE2BB44DC200373090 /* MyDownloaderUITests.swift in Sources */,
+				D4757DD02BB44DC200373090 /* MyDownloaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4757DC12BB44DC200373090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4757DAD2BB44DC100373090 /* BatchDownloaderMacOS */;
+			targetProxy = D4757DC02BB44DC200373090 /* PBXContainerItemProxy */;
+		};
+		D4757DCB2BB44DC200373090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4757DAD2BB44DC100373090 /* BatchDownloaderMacOS */;
+			targetProxy = D4757DCA2BB44DC200373090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4757DD12BB44DC200373090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4757DD22BB44DC200373090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D4757DD42BB44DC200373090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatchDownloader/BatchDownloader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BatchDownloader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BatchDownloaderMacOS-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsby360.macdownload.MyDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4757DD52BB44DC200373090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatchDownloader/BatchDownloader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BatchDownloader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BatchDownloaderMacOS-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsby360.macdownload.MyDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4757DD72BB44DC200373090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsby360.macdownload.MyDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatchDownloaderMacOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BatchDownloaderMacOS";
+			};
+			name = Debug;
+		};
+		D4757DD82BB44DC200373090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsby360.macdownload.MyDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatchDownloaderMacOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BatchDownloaderMacOS";
+			};
+			name = Release;
+		};
+		D4757DDA2BB44DC200373090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsby360.macdownload.MyDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyDownloader;
+			};
+			name = Debug;
+		};
+		D4757DDB2BB44DC200373090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsby360.macdownload.MyDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4757DA92BB44DC100373090 /* Build configuration list for PBXProject "BatchDownloaderMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4757DD12BB44DC200373090 /* Debug */,
+				D4757DD22BB44DC200373090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4757DD32BB44DC200373090 /* Build configuration list for PBXNativeTarget "BatchDownloaderMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4757DD42BB44DC200373090 /* Debug */,
+				D4757DD52BB44DC200373090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4757DD62BB44DC200373090 /* Build configuration list for PBXNativeTarget "BatchDownloaderMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4757DD72BB44DC200373090 /* Debug */,
+				D4757DD82BB44DC200373090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4757DD92BB44DC200373090 /* Build configuration list for PBXNativeTarget "BatchDownloaderMacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4757DDA2BB44DC200373090 /* Debug */,
+				D4757DDB2BB44DC200373090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4757DA62BB44DC100373090 /* Project object */;
+}
