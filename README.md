@@ -1,4 +1,4 @@
-# 📱 MacOS Batch Downloader
+# 🖥️ MacOS Batch Downloader
 
 This macos application allows you to download images/audio/video from a list of URLs provided in a text editor. The app displays the number of links found and shows the download status.
 
