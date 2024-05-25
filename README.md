@@ -6,7 +6,7 @@ This macos application allows you to download images/audio/video from a list of 
 
 - ✏️ **Text Editor**: Input your URLs into a text editor.
 - 🔢 **Link Count**: Displays the number of links found in the text editor.
-- 📥 **Download Images**: Downloads images from the URLs provided and saves them to a selected folder.
+- 📥 **Download Any File**: Downloads any file from the URLs provided and saves them to a selected folder.
 - 🕒 **Download Status**: Shows the current status of the download process.
 
 ## 🛠️ How to Use
