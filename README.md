@@ -24,9 +24,9 @@ This macos application allows you to download images/audio/video from a list of 
 
 ## 📸 Screenshots
 
-![Screenshot](screenshots/screenshot1.png)
-![Screenshot](screenshots/screenshot2.png)
-![Screenshot](screenshots/screenshot3.png)
+![Screenshot](screenshots/Screenshot1.png)
+![Screenshot](screenshots/Screenshot2.png)
+![Screenshot](screenshots/Screenshot3.png)
 
 ## 🤝 Contributing
 
